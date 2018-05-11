@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
 """
 Perceptrons as Logical Operators
 
-What are the weights and bias for the AND perceptron?
-Set the weights (weight1, weight2) and bias bias to 
+Weights and bias for the AND, OR, NOT perceptrons
+Our goal is to  set the weights (weight1, weight2) and bias to 
 the correct values that calculate AND operation as shown above.
 """
 import pandas as pd
@@ -24,7 +23,6 @@ bias = -19.0
 #weight2 = -11.0
 #bias = 10.0
 
-# DON'T CHANGE ANYTHING BELOW
 # Inputs and outputs
 test_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]
 correct_outputs = [False, False, False, True]
