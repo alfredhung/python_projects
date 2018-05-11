@@ -4,7 +4,7 @@ Cross Entropy function
 """
 import numpy as np
 
-# Write a function that takes as input two lists Y, P,
+# We write a function that takes as input two lists Y, P,
 # and returns the float corresponding to their cross-entropy.
 def cross_entropy(Y, P):
     ce = 0
@@ -16,11 +16,15 @@ def cross_entropy(Y, P):
         ce += ce1
     return ce
 
-#Trying for Y=[1,0,1,1] and P=[0.4,0.6,0.1,0.5]. 
-#The correct answer is 4.8283137373 
-#And your code returned 4.8283137373 Correct!
 
-# SOLUTION
+Y=[1,0,1,1]
+P=[0.4,0.6,0.1,0.5]
+cross_entropy(Y, P)
+
+#The correct answer is 4.8283137373 
+#And your code returned 4.8283137373 
+
+# Another SOLUTION
 import numpy as np
 
 def cross_entropy(Y, P):
