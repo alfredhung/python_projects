@@ -16,19 +16,19 @@ import numpy as np
 # Alternative SOLUTION 1
 import numpy as np
 
-def softmax(L):
-    expL = np.exp(L)
-    sumExpL = sum(expL)
-    result = []
-    for i in expL:
-        result.append(i*1.0/sumExpL)
-    return result
- 
-# Alternative SOLUTION 1
-
 #def softmax(L):
 #    expL = np.exp(L)
-#    return np.divide (expL, expL.sum())
+#    sumExpL = sum(expL)
+#    result = []
+#    for i in expL:
+#        result.append(i*1.0/sumExpL)
+#    return result
+ 
+# Alternative SOLUTION 2
+
+def softmax(L):
+    expL = np.exp(L)
+    return np.divide (expL, expL.sum())
 
 L=[5,6,7]
 #The correct answer is [0.09003057317038046, 0.24472847105479764, 0.6652409557748219] 
