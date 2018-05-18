@@ -17,7 +17,7 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [keras](https://keras.io/#installation)
-- [tensorflow] (https://www.tensorflow.org/install/)
+- [tensorflow](https://www.tensorflow.org/install/)
 
 It will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
